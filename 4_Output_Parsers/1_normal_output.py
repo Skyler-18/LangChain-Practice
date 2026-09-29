@@ -1,3 +1,7 @@
+"""
+This is a simple example of how the code looks when we don't use any output parsers. The output is just a string and we have to manually parse it to extract the required information.
+"""
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv 
 from langchain_core.prompts import PromptTemplate

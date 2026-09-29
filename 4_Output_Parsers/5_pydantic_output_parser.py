@@ -1,3 +1,7 @@
+"""
+This file demonstrates how to use the PydanticOutputParser to ensure the AI model returns data in a specific structured format defined by a Pydantic model. The PydanticOutputParser allows you to define a schema for the expected output using Pydantic, making it easier to validate and work with the returned data.
+"""
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv 
 from langchain_core.prompts import PromptTemplate

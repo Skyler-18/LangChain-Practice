@@ -1,3 +1,7 @@
+"""
+This file demonstrates how the code looks when we use the StrOutputParser. The output is a string and we can directly use it without any further parsing.
+"""
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv 
 from langchain_core.prompts import PromptTemplate

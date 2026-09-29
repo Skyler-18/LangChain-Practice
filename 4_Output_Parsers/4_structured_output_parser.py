@@ -1,3 +1,7 @@
+"""
+This file demonstrates how to use the StructuredOutputParser to ensure the AI model returns data in a specific structured format. The StructuredOutputParser allows you to define a schema for the expected output, making it easier to extract and work with the returned data.
+"""
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv 
 from langchain_core.prompts import PromptTemplate
